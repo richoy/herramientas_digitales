@@ -1,5 +1,6 @@
 body {
-    color: #333333
+    color: #333333;
+    background-color: #f5f5f5 !important;
 }
 
 .sidenav {
@@ -21,10 +22,6 @@ body {
     display: block;
 }
 
-.main-container {
-    margin-left: 160px; 
-}
-
 .header {
     position: fixed;
     display: block;
@@ -35,17 +32,16 @@ body {
     color: #58ade3;
     text-align: center;
     z-index: 10;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
     margin-left: 160px; 
     background-color: white;
     padding-top: 20px;
 }
 
-.container-fluid{
+.container{
     margin-top: 90px;
     background-color: #f5f5f5;
-    height: 100vh;
 }
 
 .footer {
@@ -57,6 +53,11 @@ body {
     color: white;
     text-align: center;
 }
+
+.body_image{
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 
 @media screen and (max-height: 450px) {
    .sidenav {padding-top: 15px;}
